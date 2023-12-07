@@ -17,5 +17,5 @@ export const routes: Routes = [
     {path:'team', component:TeamComponent},
     {path:'blog', component:BlogComponent} ,
     {path:'', component:PagenotfoundComponent},
-    {path: '**', redirectTo: 'home', pathMatch:'full'},
+    {path: '**', redirectTo: '/home', pathMatch:'full'},
 ];

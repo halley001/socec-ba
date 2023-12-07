@@ -22,7 +22,7 @@
     "@ribajs/bs4": "^2.0.0-rc.9",
     "@simplia-frontend/jquery-owl-carousel-default-theme": "^2.3.4",
     "aos": "^2.3.4",
-    "bootstrap": "^5.3.2",
+    "bootstrap": "^4.3.1",
     "bootstrap-datepicker": "^1.10.0",
     "jquery-ui": "^1.13.2",
     "jquery.fancybox": "^2.1.5",

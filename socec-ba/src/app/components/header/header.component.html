@@ -4,46 +4,37 @@
       <div class="row align-items-center">
         
         <div class="col-6 col-xl-2">
-          <h1 class="mb-0 site-logo"><a href="index.html" class="h2 mb-0">SOCECBA<span class="text-primary">.</span> </a></h1>
+          <h1 class="mb-0 site-logo"><a routerLink="/home"  class="h2 mb-0"><img src="assets/images/stl.png" alt="logo" width="70" height="70" style="padding-top: 0.5rem;"></a></h1>
         </div>
 
         <div class="col-12 col-md-10 d-none d-xl-block">
           <nav class="site-navigation position-relative text-right" role="navigation">
 
             <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-              <li><a href="#home-section" class="nav-link">Home</a></li>
+              <li><a [routerLink]="['/home']" routerLinkActive="router-link-active"  class="nav-link">Home</a></li>
               <li class="has-children">
-                <a href="#about-section" class="nav-link">About Us</a>
+                <a routerLink="/about" class="nav-link">About Us</a>
                 <ul class="dropdown">
-                  <li><a href="#team-section" class="nav-link">Team</a></li>
-                  <li><a href="#pricing-section" class="nav-link">Pricing</a></li>
-                  <li><a href="#faq-section" class="nav-link">FAQ</a></li>
-                  <li><a href="#gallery-section" class="nav-link">Gallery</a></li>
-                  <li><a href="#services-section" class="nav-link">Services</a></li>
-                  <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
-                  <li class="has-children">
-                    <a href="#">More Links</a>
-                    <ul class="dropdown">
-                      <li><a href="#">Menu One</a></li>
-                      <li><a href="#">Menu Two</a></li>
-                      <li><a href="#">Menu Three</a></li>
-                    </ul>
-                  </li>
+                  <li><a  routerLink="team" class="nav-link">Team</a></li>
+                  <li><a  routerLink="#" class="nav-link">Join us</a></li>
+                  <li><a  routerLink="#" class="nav-link">FAQ</a></li>
+                  <li><a  routerLink="/blog" class="nav-link">Blog</a></li>
+                  <li><a  routerlink="/services" class="nav-link">Services</a></li>
+                  <li><a  routerLink="/testimonials" class="nav-link">Testimonials</a></li>
                 </ul>
               </li>
               
-              
-              <li><a href="#blog-section" class="nav-link">Blog</a></li>
-              <li><a href="#contact-section" class="nav-link">Contact</a></li>
-              <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-facebook"></span></a></li>
-              <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-twitter"></span></a></li>
-              <li class="social"><a href="#contact-section" class="nav-link"><span class="icon-linkedin"></span></a></li>
+              <li><a  routerLink="/contact" class="nav-link">Contact</a></li>
+              <li><a routerLink=""  class="nav-link">Web Banking</a></li>
+              <li class="social"><a routerLink="" class="nav-link"><span class="icon-facebook"></span></a></li>
+              <li class="social"><a routerLink="" class="nav-link"><span class="icon-twitter"></span></a></li>
+              <li class="social"><a routerLink="" class="nav-link"><span class="icon-linkedin"></span></a></li>
             </ul>
           </nav>
         </div>
 
 
-        <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
+        <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a routerLink="" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
 
       </div>
     </div>
