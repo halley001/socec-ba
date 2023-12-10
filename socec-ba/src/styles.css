@@ -120,7 +120,7 @@ html {
     background: #343a40; }
     @media (min-width: 768px) {
       .site-footer {
-        padding: 8em 0; } }
+        padding: 4em 0; } }
     .site-footer .border-top {
       border-top: 1px solid rgba(255, 255, 255, 0.1) !important; }
     .site-footer p {
@@ -1448,7 +1448,6 @@ html {
   
   .social-media {
     display: inline-block;
-    float: left;
     margin-bottom: 0px;
     padding: 0; }
     .social-media li {
