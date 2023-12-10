@@ -27,6 +27,7 @@
             "styles": [
               "./node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker.css",
               "./node_modules/aos/dist/aos.css",
+              "./node_modules/bootstrap-icons/font/bootstrap-icons.min.css",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
