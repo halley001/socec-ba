@@ -1,3 +1,4 @@
+
 /* Base */
 html {
   overflow-x: hidden; }
@@ -1445,7 +1446,6 @@ body:after {
 
 .social-media {
   display: inline-block;
-  float: left;
   margin-bottom: 0px;
   padding: 0; }
   .social-media li {
