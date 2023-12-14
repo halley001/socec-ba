@@ -592,6 +592,7 @@ html {
       font-size: 4rem;
       font-weight: 400;
       color: #fff;
+      margin-top: 18px;
       font-weight: 900; }
       @media (max-width: 991.98px) {
         .site-blocks-cover h1 {
