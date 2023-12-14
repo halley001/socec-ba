@@ -5,8 +5,8 @@ import { ContactComponent } from './components/contact/contact.component';
 import { ServicesComponent } from './components/services/services.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { AboutComponent } from './components/about/about.component';
-import { TeamComponent } from './components/team/team.component';
-import { BlogComponent } from './components/blog/blog.component';
+import { MembershipComponent } from './components/membership/membership.component';
+
 
 export const routes: Routes = [
     {path: 'home', component:HomeComponent},
@@ -14,8 +14,7 @@ export const routes: Routes = [
     {path:'services', component:ServicesComponent},
     {path:'testimonials', component:TestimonialsComponent},
     {path:'about', component:AboutComponent},
-    {path:'team', component:TeamComponent},
-    {path:'blog', component:BlogComponent} ,
+    {path:'membership',component:MembershipComponent},
     {path:'', redirectTo:'/home', pathMatch:'full'},
     {path: '**', component:PagenotfoundComponent},
 ];
