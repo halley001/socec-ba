@@ -1,16 +1,11 @@
 # SOCECBA
 
-## Needs
+## Exigences
 
-- Phone Number 
-- Services
-- Products
-- Address
-- Number of Branches
-- Member names and member photos
-- Photos of events (Promotion )
-- More information about SOCEC-BA (at least 250 words, 2 paragraphs)
+- Noms des membres (Directeur, Caissier, Comptable, Agent de crédit)
+- Photos des membres (Directeur, Caissier, Comptable, Agent de crédit)
+- Photos d'événements (promotion)
+- Témoignages de 3 membres de PECCU (2 lignes minimum par membre) ;
 
 
-
-Designed by I-TECH
+Conçu par I-TECH
