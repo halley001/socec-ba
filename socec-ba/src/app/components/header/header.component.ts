@@ -10,5 +10,9 @@ import { RouterLink } from '@angular/router';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+  goCNN() {
+    window.location.href = 'https:/awb/';
+}
+
 
 }
